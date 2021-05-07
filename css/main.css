@@ -1,0 +1,49 @@
+body,html{
+  font-family: 'Lato', sans-serif;
+  height: 100%;
+  font-size: 14px;
+}
+
+h3{
+  font-size: 18px;
+}
+
+.v-line-clamp-3{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.v-line-clamp-2{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+.v-line-clamp-1{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+.btn-shortcut{
+  background: #17365D;
+  border-color: #E4E4E4;
+  border-radius: 10px 0 10px 0;
+  color: #CACACA;
+  margin-bottom: 5px;
+}
+.btn-shortcut:hover,.btn-shortcut:focus{
+  background: #17365D;
+  color: #ffffff;
+}
+
+a.v-link{
+  color: #057EAB;
+  font-weight: bold;
+  text-decoration: none;
+}
+.text-gray-100{
+  color:#343434;
+}

@@ -1,0 +1,31 @@
+@media screen and (min-width:576px){
+  header{
+    height: 58px;
+    padding: 0;
+  }
+}
+@media screen and (min-width:767px){
+ 
+  
+}
+@media screen and (min-width:992px){
+  .v-mainmenu{
+    height: 36px;
+  }
+  .v-footer{
+    height: 52px;
+  }
+  .v-card{
+    min-width: 220px;
+  }
+  .v-card.v-menu{
+    width: 195px;
+    max-width: 195px;
+  }
+}
+@media screen and (min-width:1024px){
+  
+}
+@media screen and (min-width:1199px){
+
+}

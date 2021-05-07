@@ -1,0 +1,91 @@
+/* The container */
+.v-radio-container {
+  display: block;
+  position: relative;
+  padding-left: 22px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-right: 15px;
+  line-height: 1.2;
+}
+
+/* Hide the browser's default radio button */
+.v-radio-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.v-radio-container .checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #0F243E;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.v-radio-container:hover input ~ .checkmark {
+  background-color: #0F243E;
+}
+
+/* When the radio button is checked, add a blue background */
+.v-radio-container input:checked ~ .checkmark {
+  background-color: #0F243E;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.v-radio-container .checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.v-radio-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.v-radio-container .checkmark:after {
+ 	top: 3px;
+	left: 3px;
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background: #ffffff;
+}
+
+.v-search input{
+  background: #D8D8D8;
+  color: #0F243E;
+  height: 38px;
+  margin: 0;
+  border: 1px solid #E4E4E4;
+  width: 100%;
+}
+.v-search-btn button{
+  background: transparent;
+  border-radius: 0 0 10px 0;
+  color: #ffffff;
+  -webkit-appearance: none;
+  border: 1px solid #0F243E;
+  font-weight: bold;
+}
+.v-add-link{
+  color: #0F243E;
+  background-color: #F2F2F2;
+  border: 1px solid #E4E4E4;
+  border-radius: 5px 0 5px 0;
+  text-decoration: none;
+  padding: 10px 15px;; 
+  font-weight: bolder;
+  margin-left: 10px;
+}
